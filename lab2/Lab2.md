@@ -27,3 +27,24 @@ and figure 2 shows frequency domain
 Task 3:  
 The first code produces a single instant of the noise put into the microphone, and its frequency spectrum  
 when the loop is added the file continuosly updates, and when the input frequency is increased it goes up on the frequency spectrum  
+
+task 4:  
+1000  
+![image](https://github.com/user-attachments/assets/885c4189-9aa5-4716-96cf-bb1abbaeb021)
+
+1100  
+![image](https://github.com/user-attachments/assets/c726d15f-3341-459a-981c-182e6eaccd96)
+
+hamming  
+
+makes the peak sharper by multiplying the frequency we want by a hamming window:  
+![image](https://github.com/user-attachments/assets/b91900f9-ccf7-4ffe-a297-5c7dd257f65e)
+
+
+Task 5: 2 dominant frequencies
+1.07
+11.56
+
+2.17
+9.44
+
