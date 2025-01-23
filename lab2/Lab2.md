@@ -39,11 +39,20 @@ hamming
 
 makes the peak sharper by multiplying the frequency we want by a hamming window:  
 ![image](https://github.com/user-attachments/assets/b91900f9-ccf7-4ffe-a297-5c7dd257f65e)
+<img width="408" alt="image" src="https://github.com/user-attachments/assets/d8f1bc19-483f-418b-9f59-d359e51715e6" />
+<img width="396" alt="image" src="https://github.com/user-attachments/assets/c5eef5bc-28de-4d08-906b-28fa774ce122" />
+<img width="405" alt="image" src="https://github.com/user-attachments/assets/e0036a6b-e298-4075-8335-eff362f05149" />
+
 
 
 Task 5: 2 dominant frequencies
 1.07
 11.56
+<img width="225" alt="image" src="https://github.com/user-attachments/assets/024fbbb2-6529-445f-ae42-8cfe2ccfa58b" />
+<img width="254" alt="image" src="https://github.com/user-attachments/assets/243eaea8-68d4-4732-9966-bc8ced0fc366" />
+<img width="248" alt="image" src="https://github.com/user-attachments/assets/be4aec72-9b7e-43a6-9b1e-7bcaf3c1f621" />
+
+
 
 2.17
 9.44
