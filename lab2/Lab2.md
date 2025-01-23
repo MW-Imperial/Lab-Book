@@ -38,7 +38,7 @@ task 4:
 hamming  
 
 makes the peak sharper by multiplying the frequency we want by a hamming window:  
-![image](https://github.com/user-attachments/assets/b91900f9-ccf7-4ffe-a297-5c7dd257f65e)
+![image](https://github.com/user-attachments/assets/b91900f9-ccf7-4ffe-a297-5c7dd257f65e)  
 <img width="408" alt="image" src="https://github.com/user-attachments/assets/d8f1bc19-483f-418b-9f59-d359e51715e6" />  
 <img width="396" alt="image" src="https://github.com/user-attachments/assets/c5eef5bc-28de-4d08-906b-28fa774ce122" />  
 <img width="405" alt="image" src="https://github.com/user-attachments/assets/e0036a6b-e298-4075-8335-eff362f05149" />  
@@ -56,4 +56,9 @@ Task 5: 2 dominant frequencies
 
 2.17  
 9.44  
+
+
+Task 6:  
+Audio wav were different lengths, so cropped each to the length of the shorter one, then added them together.  
+Analysis of the combined signal showed a clear bass freq and higher guitar frequencies.  
 
