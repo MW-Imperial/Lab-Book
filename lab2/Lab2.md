@@ -30,7 +30,8 @@ when the loop is added the file continuosly updates, and when the input frequenc
 
 task 4:  
 1000  
-![image](https://github.com/user-attachments/assets/885c4189-9aa5-4716-96cf-bb1abbaeb021)  
+<img width="359" alt="image" src="https://github.com/user-attachments/assets/c7fdc7ac-e163-4cd3-b2d0-4cce1750c1e3" />
+ 
 
 1100  
 ![image](https://github.com/user-attachments/assets/c726d15f-3341-459a-981c-182e6eaccd96)  
