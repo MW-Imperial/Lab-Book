@@ -78,10 +78,13 @@ Orange is the hamming window, blue is rectangular
 
 Task 5: 2 dominant frequencies  
   
-<img width="225" alt="image" src="https://github.com/user-attachments/assets/024fbbb2-6529-445f-ae42-8cfe2ccfa58b" />   
-Use matlab find peaks function to see energy peaks / beats and period of beats
-<img width="254" alt="image" src="https://github.com/user-attachments/assets/243eaea8-68d4-4732-9966-bc8ced0fc366" />   
+<img width="225" alt="image" src="https://github.com/user-attachments/assets/024fbbb2-6529-445f-ae42-8cfe2ccfa58b" />     
+  
+Use matlab find peaks function to see energy peaks / beats and period of beats  
+<img width="254" alt="image" src="https://github.com/user-attachments/assets/243eaea8-68d4-4732-9966-bc8ced0fc366" />    
+  
 Or find the fourier spectrum: this gives the set of frequencies, with the fundamenetal frequency being the bpm    
+  
   
 <img width="248" alt="image" src="https://github.com/user-attachments/assets/be4aec72-9b7e-43a6-9b1e-7bcaf3c1f621" />  
 
