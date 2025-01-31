@@ -54,21 +54,21 @@ task 4:
 converting to dB shows the lower amplitude much clearer than a linear scale  
 
 1000 Hz  
-<img width="359" alt="image" src="https://github.com/user-attachments/assets/c7fdc7ac-e163-4cd3-b2d0-4cce1750c1e3" />
- Sample size contains exactly 125 cycles (1000Hz / 8Hz Fs)
- This means that it appears continuous to the FFT
+<img width="359" alt="image" src="https://github.com/user-attachments/assets/c7fdc7ac-e163-4cd3-b2d0-4cce1750c1e3" />  
+ Sample size contains exactly 125 cycles (1000Hz / 8Hz Fs)  
+ This means that it appears continuous to the FFT  
 So perfect Spike.
 
 1100 Hz   
-![image](https://github.com/user-attachments/assets/c726d15f-3341-459a-981c-182e6eaccd96)  
-Sample size contains 137.5 cycles, which introduces discontinuity when repeated by FFT
-This adds spectral spreading, leakage and increases amplitude of sidelobes
+![image](https://github.com/user-attachments/assets/c726d15f-3341-459a-981c-182e6eaccd96)   
+Sample size contains 137.5 cycles, which introduces discontinuity when repeated by FFT  
+This adds spectral spreading, leakage and increases amplitude of sidelobes  
 
 
 hamming  
 
 Using a hamming window instead of a rectangular window changes the spectrum, this lowers the overall energy,   
-but the lack of sharp edges on the window reduces the effects of spectral spreading and leaking.
+but the lack of sharp edges on the window reduces the effects of spectral spreading and leaking.  
 ![image](https://github.com/user-attachments/assets/b91900f9-ccf7-4ffe-a297-5c7dd257f65e)  
 <img width="408" alt="image" src="https://github.com/user-attachments/assets/d8f1bc19-483f-418b-9f59-d359e51715e6" />  
 <img width="396" alt="image" src="https://github.com/user-attachments/assets/c5eef5bc-28de-4d08-906b-28fa774ce122" />  
@@ -77,16 +77,23 @@ Orange is the hamming window, blue is rectangular
 
 
 Task 5: 2 dominant frequencies  
-1.07  
-11.56  
-<img width="225" alt="image" src="https://github.com/user-attachments/assets/024fbbb2-6529-445f-ae42-8cfe2ccfa58b" />  
-<img width="254" alt="image" src="https://github.com/user-attachments/assets/243eaea8-68d4-4732-9966-bc8ced0fc366" />  
+  
+<img width="225" alt="image" src="https://github.com/user-attachments/assets/024fbbb2-6529-445f-ae42-8cfe2ccfa58b" />   
+Use matlab find peaks function to see energy peaks / beats and period of beats
+<img width="254" alt="image" src="https://github.com/user-attachments/assets/243eaea8-68d4-4732-9966-bc8ced0fc366" />   
+Or find the fourier spectrum: this gives the set of frequencies, with the fundamenetal frequency being the bpm    
+  
 <img width="248" alt="image" src="https://github.com/user-attachments/assets/be4aec72-9b7e-43a6-9b1e-7bcaf3c1f621" />  
 
+Fundamental Freq:  
+X 1.07  Hz  
+Magnitude:  
+Y 11.56 
 
-
-2.17  
-9.44  
+second Freq:  
+X 2.17  Hz  
+Magnitude:  
+Y 9.44  
 
 
 Task 6:  
