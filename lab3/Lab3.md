@@ -25,9 +25,9 @@ the gradient gives the gain of the system.
 
 Task 2 Frequency Response of the Bulb Board system – Theoretical only     
 
+![image](https://github.com/user-attachments/assets/18b493fc-140d-49a3-a943-eac3a2b45207)    
 Lab3task2.mlx  
-![image](https://github.com/user-attachments/assets/18b493fc-140d-49a3-a943-eac3a2b45207)  
-![image](https://github.com/user-attachments/assets/9ed8087b-a546-4149-9323-1ed60de13580)  
+![image](https://github.com/user-attachments/assets/9ed8087b-a546-4149-9323-1ed60de13580)   
 assumes signal is in asteady state (continuous and constant sinousoidal wave) 
 Peaks at 5hz which is the frequency of ODE oscillation:    
 <img width="361" alt="Screenshot 2025-02-06 at 11 55 40" src="https://github.com/user-attachments/assets/11cf20ff-0796-499e-960c-2c7e9267847c" />
