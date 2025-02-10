@@ -53,7 +53,7 @@ Gain / dB vs Freq / Hz:
   
 Plotting freq response:  
 
-lab3task3a.mlx
+lab3task3a.mlx  
 ![image](https://github.com/user-attachments/assets/97269358-8e49-4feb-8da9-9b1000e68b28)
 
 <img width="362" alt="Screenshot 2025-02-06 at 12 05 36" src="https://github.com/user-attachments/assets/99e65e92-c684-453a-b110-cf93c4d60f6d" />      
@@ -62,7 +62,10 @@ Also peaks at 5Hz at 12dB higher gain, which correlates to multiplier from light
 ???Graph showing higher gain???  
   
 Task 4 - Measure the Step Response of the Bulb Board    
-  
+
+Lab3Task4.mlx  
+![image](https://github.com/user-attachments/assets/72f974b2-8899-46fb-aab5-2abd255e756e)
+
 Captures the transient response instead of steady state:  
 As before, the response oscillates at 5Hz  
 Step up has a higher amplitude of oscillation as it is in high gain range of lightbulb characteristic  
