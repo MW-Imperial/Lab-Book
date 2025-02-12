@@ -40,7 +40,7 @@ Task 5
 dotproduct.mlx  
 S1xS2 gives a result of: dot_product = 3.6526e-13  
 S1xS3 gives dot_product2 = -1.9668e-10  
-which is a larger number, because the frequencies are closer.  
+which is a larger number, because the frequencies are closer, but still minute as the frequencies are orthogonal / have nothing in common with each other
 (S1+S2)XS1 gives dot_product3 = 5.0000e+03  
 This is a much larger number because there is a large component of s1 being projected onto itself  
 
