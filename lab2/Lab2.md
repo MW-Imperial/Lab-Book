@@ -46,8 +46,22 @@ The first code produces a single instant of the noise put into the microphone, a
 ![image](https://github.com/user-attachments/assets/816a0c58-4f85-45cc-bc4f-c3ab06132f77)
 
 when the loop is added the file continuosly updates, and when the input frequency is increased it goes up on the frequency spectrum  
+Sampling different freq:  
+  
+3000Hz  
+![image](https://github.com/user-attachments/assets/86f2404c-7d2f-4777-b9b3-bb2a00005dc1)  
+3500Hz  
+![image](https://github.com/user-attachments/assets/f88d5cc5-1479-4956-892b-5acf96537e4d)  
+4000Hz  
+![image](https://github.com/user-attachments/assets/1f935541-75d0-4b7d-bc40-f68f5e165ec3)  
+45000Hz  
+![image](https://github.com/user-attachments/assets/429e9cc8-f26d-4f51-b3d1-da69a5466582)  
+5000Hz  
+![image](https://github.com/user-attachments/assets/55622937-8f61-4368-a961-d6571674bced)
 
-above 4900hz (half fs) it begins to fold down to lower frequencies.  
+
+above 4900hz (half fs) it begins to fold down to lower frequencies.  This is because about the Nyquist frequency it is indistinguishable from the folded frequency wave when reconstructed from samples.  
+
 
   
 task 4:  
