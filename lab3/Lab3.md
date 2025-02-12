@@ -34,7 +34,6 @@ Lab3task2.mlx
 ![image](https://github.com/user-attachments/assets/9ed8087b-a546-4149-9323-1ed60de13580)   
 Assumes input signal is in asteady state (continuous and constant sinousoidal wave) 
 Peaks at 5hz which is the frequency of ODE oscillation:    
-<img width="361" alt="Screenshot 2025-02-06 at 11 55 40" src="https://github.com/user-attachments/assets/11cf20ff-0796-499e-960c-2c7e9267847c" />
 <img width="342" alt="Screenshot 2025-02-06 at 11 51 15" src="https://github.com/user-attachments/assets/289b7697-68bc-4213-a665-4810125ae077" />
 
 Manual Calculation using G(s):  
@@ -47,7 +46,7 @@ Task 3 Measure the Frequency Response of the Bulb Board system using PyBench
   
 Lab3task3.mlx  
 ![image](https://github.com/user-attachments/assets/36b9db1c-cdc1-443c-9d3e-cded4282b991)
-
+<img width="361" alt="Screenshot 2025-02-06 at 11 55 40" src="https://github.com/user-attachments/assets/11cf20ff-0796-499e-960c-2c7e9267847c" />  
 Gain / dB vs Freq / Hz:  
 ![image](https://github.com/user-attachments/assets/147e39f5-a88d-4db8-967f-55698d20bcb5)<img width="371" alt="Screenshot 2025-02-06 at 11 58 35" src="https://github.com/user-attachments/assets/42a8252e-c7d3-46b8-a19e-7f159ec21570" />
 <img width="377" alt="Screenshot 2025-02-06 at 11 58 07" src="https://github.com/user-attachments/assets/ee8f38f6-782b-4e64-95fc-2e3763103812" />
@@ -62,9 +61,9 @@ lab3task3a.mlx
 
 <img width="362" alt="Screenshot 2025-02-06 at 12 05 36" src="https://github.com/user-attachments/assets/99e65e92-c684-453a-b110-cf93c4d60f6d" />      
   
-Also peaks at 5Hz at 12dB higher gain, which correlates to multiplier from lightbulb characteristic graph gain in 1.45-1.55v range. (gradient of ???)     
-![image](https://github.com/user-attachments/assets/ffec9114-69e8-4051-96cf-0afab9428dbf)  
-The noise is amplified at higher frequencies, so the dropoff is less??? rewatch thing.
+Also peaks at 5Hz at 8dB higher gain, which correlates to (but is a little lower than) multiplier from lightbulb characteristic graph gain in 1.45-1.55v range (14dB)   
+![image](https://github.com/user-attachments/assets/ffec9114-69e8-4051-96cf-0afab9428dbf)   
+At higher frequencies / low gain values the noise adds to the signal which means it does not decrease further and it is innacurate.  
   
 Task 4 - Measure the Step Response of the Bulb Board    
 
