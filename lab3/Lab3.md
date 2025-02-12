@@ -15,20 +15,24 @@ Why does it plateau? The circuit cannot recieve higher voltages, so it caps out 
 Lab3task1.mlx  
 ![image](https://github.com/user-attachments/assets/84c8fc15-53a4-45e5-9090-33e5438f6861)
 
-???Missing characteristic img???  
+![image](https://github.com/user-attachments/assets/9d0cae59-7a97-4249-a75a-1a454260e443)
+  
 Curve is exponential as p= V^2/R  
 Why does it oscillate? The circuit is made up of 4 op amps which create a simulated second order ODE.  
 
 linear at 1.45-1.55v  
 if it was fully linear it would look like a straight line graph  
-the gradient gives the gain of the system.  
+the gradient gives the gain of the system:
+![image](https://github.com/user-attachments/assets/9d5a83c9-053d-495d-b7d5-7690a3b2750e)
+(2.214-1.12) / 0.2 = 5.57
+in dB 20 x log(5.57) = 14.7 dB gain
 
 Task 2 Frequency Response of the Bulb Board system – Theoretical only     
 
 ![image](https://github.com/user-attachments/assets/18b493fc-140d-49a3-a943-eac3a2b45207)    
 Lab3task2.mlx  
 ![image](https://github.com/user-attachments/assets/9ed8087b-a546-4149-9323-1ed60de13580)   
-assumes signal is in asteady state (continuous and constant sinousoidal wave) 
+Assumes signal is in asteady state (continuous and constant sinousoidal wave) 
 Peaks at 5hz which is the frequency of ODE oscillation:    
 <img width="361" alt="Screenshot 2025-02-06 at 11 55 40" src="https://github.com/user-attachments/assets/11cf20ff-0796-499e-960c-2c7e9267847c" />
 <img width="342" alt="Screenshot 2025-02-06 at 11 51 15" src="https://github.com/user-attachments/assets/289b7697-68bc-4213-a665-4810125ae077" />
@@ -59,7 +63,8 @@ lab3task3a.mlx
 <img width="362" alt="Screenshot 2025-02-06 at 12 05 36" src="https://github.com/user-attachments/assets/99e65e92-c684-453a-b110-cf93c4d60f6d" />      
   
 Also peaks at 5Hz at 12dB higher gain, which correlates to multiplier from lightbulb characteristic graph gain in 1.45-1.55v range. (gradient of ???)     
-???Graph showing higher gain???  
+![image](https://github.com/user-attachments/assets/ffec9114-69e8-4051-96cf-0afab9428dbf)  
+The noise is amplified at higher frequencies, so the dropoff is less??? rewatch thing.
   
 Task 4 - Measure the Step Response of the Bulb Board    
 
