@@ -1,4 +1,3 @@
-![nahidwincat](https://github.com/user-attachments/assets/103be7a3-8fd6-441d-aec5-bb953e62434f)
 Lab 1  
 
 Task 1  
@@ -42,7 +41,7 @@ S1xS2 gives a result of: dot_product = 3.6526e-13
 S1xS3 gives dot_product2 = -1.9668e-10  
 which is a larger number, because the frequencies are closer, but still minute as the frequencies are orthogonal / have nothing in common with each other
 (S1+S2)XS1 gives dot_product3 = 5.0000e+03  
-This is a much larger number because there is a large component of s1 being projected onto itself  
+This is a much larger number because there is a large component of s1 being projected onto itself, and the magnitude multiplies with itself through the dot product.  
 
 ![image](https://github.com/user-attachments/assets/282339ef-f8ae-4033-80dc-9c3348c39e65)
 
