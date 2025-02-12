@@ -45,10 +45,9 @@ data = samples - mean(samples) removes the DC offset.
 Task 3:  
 The first code produces a single instant of the noise put into the microphone, and its frequency spectrum 
 ![image](https://github.com/user-attachments/assets/816a0c58-4f85-45cc-bc4f-c3ab06132f77)
-
+Displays the positive freq parts of the wave only,  
 when the loop is added the file continuosly updates, and when the input frequency is increased it goes up on the frequency spectrum  
-Sampling different freq:  
-  
+Sampling different freq:   
 3000Hz  
 ![image](https://github.com/user-attachments/assets/86f2404c-7d2f-4777-b9b3-bb2a00005dc1)  
 3500Hz  
