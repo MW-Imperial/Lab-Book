@@ -22,7 +22,7 @@ Waveform of both sinewaves combined:
 ![image](https://github.com/user-attachments/assets/24a3e4ad-89e3-42dc-b41c-20a37719350d)  
 Sigamp.mlx  
 Waveform of amplitude  
-![image](https://github.com/user-attachments/assets/981af629-08d5-4217-985b-94860b476c69)
+![image](https://github.com/user-attachments/assets/981af629-08d5-4217-985b-94860b476c69)  
 shows both frequencies seperately.  
 
 Task 4  
