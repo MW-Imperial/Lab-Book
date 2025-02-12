@@ -68,7 +68,7 @@ N=500:
 N=5000:  
 ![image](https://github.com/user-attachments/assets/49848104-2e17-40da-8827-526d5bda1a42)
 
-Higher resolution at higher sample number
+Higher frequency resolution at higher sample number, also waveform is more precise as its sample peak point is closer to actual peak frequency  
   
 task 4:  
 converting to dB shows the lower amplitude much clearer than a linear scale  
