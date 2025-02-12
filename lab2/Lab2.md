@@ -19,7 +19,8 @@ Step 3:
 Matlab path setup worked, and pb returned expected properties  
 First the code searches for a list of serial ports on the computer,  
 ![image](https://github.com/user-attachments/assets/885e201c-3311-425d-984a-c2124f35f8b5)  
-  Then the last port 'ports(end)' is usually the one we access for the pybench. 
+  Then the last port 'ports(end)' is usually the one we access for the pybench.   
+  
 ![image](https://github.com/user-attachments/assets/cb6009f0-ba47-4170-9a75-f7047b41a19a)  
   Finally we create a pb object by calling the pybench  
 ![image](https://github.com/user-attachments/assets/25fb9d9f-45ae-4c41-9223-2ba9521f9091)    
