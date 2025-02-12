@@ -22,10 +22,10 @@ Why does it oscillate? The circuit is made up of 4 op amps which create a simula
 
 linear at 1.45-1.55v  
 if it was fully linear it would look like a straight line graph  
-the gradient gives the gain of the system:
-![image](https://github.com/user-attachments/assets/9d5a83c9-053d-495d-b7d5-7690a3b2750e)
-(2.214-1.12) / 0.2 = 5.57
-in dB 20 x log(5.57) = 14.7 dB gain
+the gradient gives the gain of the system:  
+![image](https://github.com/user-attachments/assets/9d5a83c9-053d-495d-b7d5-7690a3b2750e)  
+(2.214-1.12) / 0.2 = 5.57  
+in dB 20 x log(5.57) = 14.7 dB gain  
 
 Task 2 Frequency Response of the Bulb Board system – Theoretical only     
 
@@ -77,4 +77,6 @@ Step up has a higher amplitude of oscillation as it is in high gain range of lig
 Step down has lower gain, so lower amplitude can be seen:  
 <img width="339" alt="Screenshot 2025-02-06 at 12 07 46" src="https://github.com/user-attachments/assets/0914ed11-89c0-49eb-8e44-feb722a7092e" />  
 
-???show a graph of working out the gradients???
+Gradient at 1.5v already found to be 14dB.  
+Gradient at 0-0.5v is 
+![image](https://github.com/user-attachments/assets/cc346fde-0531-403c-a6b9-5b23a4f402b0)
