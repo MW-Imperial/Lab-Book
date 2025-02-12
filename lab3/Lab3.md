@@ -78,5 +78,5 @@ Step down has lower gain, so lower amplitude can be seen:
 <img width="339" alt="Screenshot 2025-02-06 at 12 07 46" src="https://github.com/user-attachments/assets/0914ed11-89c0-49eb-8e44-feb722a7092e" />  
 
 Gradient at 1.5v already found to be 14dB.  
-Gradient at 0-0.5v is (0.259 - 0.03) / 0.5 = 0.458v = -6.78dB  
+Gradient at low voltage is (0.259 - 0.03) / 0.5 = 0.458v = -6.78dB  
 ![image](https://github.com/user-attachments/assets/cc346fde-0531-403c-a6b9-5b23a4f402b0)
