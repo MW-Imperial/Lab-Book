@@ -62,7 +62,13 @@ Sampling different freq:
 
 above 4900hz (half fs) it begins to fold down to lower frequencies.  This is because about the Nyquist frequency it is indistinguishable from the folded frequency wave when reconstructed from samples.  
 
+changing sample number N:  
+N=500:  
+![image](https://github.com/user-attachments/assets/87b9545f-fba2-4fab-bc00-295161188ef4)  
+N=5000:  
+![image](https://github.com/user-attachments/assets/49848104-2e17-40da-8827-526d5bda1a42)
 
+Higher resolution at higher sample number
   
 task 4:  
 converting to dB shows the lower amplitude much clearer than a linear scale  
