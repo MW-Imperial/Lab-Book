@@ -100,16 +100,20 @@ Y 9.44
 
 
 Task 6:  
-Audio wav were different lengths, so cropped each to the length of the shorter one, then added them together.  
+Audio wav were different lengths, so restricted samples of each to the length of the shorter one, then added them together element by element.  
 Analysis of the combined signal showed a clear bass freq and higher guitar frequencies.  
 
 1.
-<img width="348" alt="Screenshot 2025-01-23 at 11 44 16" src="https://github.com/user-attachments/assets/a6e371bb-58d1-4c66-a678-d918d5dd9b94" />    
+<img width="348" alt="Screenshot 2025-01-23 at 11 44 16" src="https://github.com/user-attachments/assets/a6e371bb-58d1-4c66-a678-d918d5dd9b94" />
+
+^A very messy waveform of combined freq
       
 2.
 <img width="373" alt="Screenshot 2025-01-23 at 11 44 29" src="https://github.com/user-attachments/assets/59cbde32-c416-4061-a740-b05c02a4594a" />      
+  
+^Energy peaks of combined
      
 3.
 <img width="357" alt="Screenshot 2025-01-23 at 11 44 37" src="https://github.com/user-attachments/assets/99c117ba-ca5a-4e5e-8df6-afb9b788c03c" />      
      
-
+^clear spikes in freq at natural frequency of bass, guitar has more of an energy spread so not as clear of an individual spike.  
