@@ -23,7 +23,7 @@ Light intensity is proportional to x^2 (input voltage squared) because LI depend
 
 The DC characteristic is the output-to-input relationship of a system when a constant voltage (DC) is applied
 
-Why does it oscillate? The circuit is made up of 4 op amps which create a simulated second order ODE.  
+Why does it oscillate? The circuit is made up of 4 op amps which create a simulated second order ODE.  So we pause to let it settle so that wew can measure the steady state.
 
 linear at 1.45-1.55v  
 if it was fully linear it would look like a straight line graph  
