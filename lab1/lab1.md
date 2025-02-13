@@ -55,7 +55,7 @@ This is a much larger number because there is a large component of s1 being proj
 
 ![image](https://github.com/user-attachments/assets/282339ef-f8ae-4033-80dc-9c3348c39e65)
 
-Task 6
+Task 6  
 ![image](https://github.com/user-attachments/assets/9c517f83-9b41-4148-83b9-9ad232447030)
 ![image](https://github.com/user-attachments/assets/939f5d9d-0e4d-4781-a8c0-473cbd1f42e1)  #
 Shows the Spectrum changing with tune  
