@@ -19,7 +19,7 @@ Lab3task1.mlx
   
 Curve is exponential as p= V^2/R 
 
-Light intensity is proportional to x^2 (input voltage squared) because LI ∝ temp depends on p ∝ x^2
+Light intensity is proportional to x^2 (input voltage squared) because LI depends on temp depends on p ∝ x^2
 
 Why does it oscillate? The circuit is made up of 4 op amps which create a simulated second order ODE.  
 
