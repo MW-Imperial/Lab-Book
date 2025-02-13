@@ -81,7 +81,7 @@ So perfect Spike.
 
 1100 Hz   
 ![image](https://github.com/user-attachments/assets/c726d15f-3341-459a-981c-182e6eaccd96)   
-Sample size contains 137.5 cycles, which introduces discontinuity when repeated by FFT  
+Sample size contains 137.5 cycles, which introduces discontinuity (tries to fit with extra frequencies) when repeated by FFT  
 This adds spectral spreading, leakage and increases amplitude of sidelobes  
 
 
