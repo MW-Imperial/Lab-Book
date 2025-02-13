@@ -36,6 +36,7 @@ Task 2:
 pb changes the properties of the output signal sine wave, pb.sine() 
 The code generates the signal and then captures it back again as the analogue output is shorted to the input.  
 ![image](https://github.com/user-attachments/assets/9c9871fa-d45f-4511-9225-a908bd6cb4a4)
+![image](https://github.com/user-attachments/assets/69d558f4-c98e-4b55-b6c6-d2f7e3d60c47)
 
 plot('o') plots just the sample points on figure 1,  
 plot() does a continous wave  
@@ -43,6 +44,8 @@ and figure 2 shows frequency domain
 data = samples - mean(samples) removes the DC offset.  
 
 Task 3:  
+![image](https://github.com/user-attachments/assets/9c4d9007-e240-44d5-a2a3-9f5bacfc5a6a)
+
 The first code produces a single instant of the noise put into the microphone, and its frequency spectrum 
 ![image](https://github.com/user-attachments/assets/816a0c58-4f85-45cc-bc4f-c3ab06132f77)
 Displays the positive freq parts of the wave only,  
@@ -71,6 +74,8 @@ N=5000:
 Higher frequency resolution at higher sample number, also waveform is more precise as its sample peak point is closer to actual peak frequency  
   
 task 4:  
+![image](https://github.com/user-attachments/assets/a27d691d-2511-45fa-b207-c0ed6c2a16d1)
+
 converting to dB shows the lower amplitude much clearer than a linear scale  
 
 1000 Hz  
@@ -97,6 +102,7 @@ Orange is the hamming window, blue is rectangular
 
 
 Task 5: 2 dominant frequencies  
+![image](https://github.com/user-attachments/assets/b787be47-3bd3-4395-8c59-8e091849b8ad)
   
 <img width="225" alt="image" src="https://github.com/user-attachments/assets/024fbbb2-6529-445f-ae42-8cfe2ccfa58b" />     
   
