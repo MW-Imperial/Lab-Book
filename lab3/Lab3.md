@@ -18,7 +18,9 @@ Lab3task1.mlx
 ![image](https://github.com/user-attachments/assets/9d0cae59-7a97-4249-a75a-1a454260e443)
   
 Curve is exponential as p= V^2/R 
+
 Light intensity is proportional to x^2 (input voltage squared) because LI ∝ temp depends on p ∝ x^2
+
 Why does it oscillate? The circuit is made up of 4 op amps which create a simulated second order ODE.  
 
 linear at 1.45-1.55v  
