@@ -75,7 +75,7 @@ converting to dB shows the lower amplitude much clearer than a linear scale
 
 1000 Hz  
 <img width="359" alt="image" src="https://github.com/user-attachments/assets/c7fdc7ac-e163-4cd3-b2d0-4cce1750c1e3" />  
- Sample size contains exactly 125 cycles (1000Hz / 8Hz Fs)  
+ Sample size contains exactly 125 cycles (1000Hz / 8KHz Fs)  
  This means that it appears continuous to the FFT  
 So perfect Spike.
 
