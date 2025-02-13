@@ -21,6 +21,8 @@ Curve is exponential as p= V^2/R
 
 Light intensity is proportional to x^2 (input voltage squared) because LI depends on temp depends on p ∝ x^2
 
+The DC characteristic is the output-to-input relationship of a system when a constant voltage (DC) is applied
+
 Why does it oscillate? The circuit is made up of 4 op amps which create a simulated second order ODE.  
 
 linear at 1.45-1.55v  
