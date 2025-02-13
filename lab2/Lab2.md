@@ -60,7 +60,7 @@ Sampling different freq:
 ![image](https://github.com/user-attachments/assets/55622937-8f61-4368-a961-d6571674bced)
 
 
-above 4900hz (half fs) it begins to fold down to lower frequencies.  This is because about the Nyquist frequency it is indistinguishable from the folded frequency wave when reconstructed from samples.  
+above 4000hz (half fs) it begins to fold down to lower frequencies.  This is because about the Nyquist frequency it is indistinguishable from the folded frequency wave when reconstructed from samples.  
 
 changing sample number N:  
 N=500:  
