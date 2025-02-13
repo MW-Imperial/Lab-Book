@@ -1,4 +1,5 @@
 Task 1 - DC Characteristic of the Bulb Board     
+![image](https://github.com/user-attachments/assets/53710a52-0023-4c6e-adb3-873f11b28aaa)  
 
 Lab3task01.mlx  
 <img width="1512" alt="Screenshot 2025-02-06 at 11 27 33" src="https://github.com/user-attachments/assets/a096ce00-b909-438e-adfd-0b14965e4d40" />  
@@ -33,8 +34,11 @@ the gradient gives the gain of the system:
 in dB 20 x log(5.57) = 14.7 dB gain  
 
 Task 2 Frequency Response of the Bulb Board system – Theoretical only     
+![image](https://github.com/user-attachments/assets/22d78f31-641c-4441-bb74-4e02348717a2)  
 
-![image](https://github.com/user-attachments/assets/18b493fc-140d-49a3-a943-eac3a2b45207)    
+![image](https://github.com/user-attachments/assets/18b493fc-140d-49a3-a943-eac3a2b45207)  
+![image](https://github.com/user-attachments/assets/91c0a92c-13d4-4e1c-901c-48b89461b384)
+
 Lab3task2.mlx  
 ![image](https://github.com/user-attachments/assets/9ed8087b-a546-4149-9323-1ed60de13580)   
 Assumes input signal is in asteady state (continuous and constant sinousoidal wave) 
@@ -48,7 +52,9 @@ Starts at (0,0)
 
 
 Task 3 Measure the Frequency Response of the Bulb Board system using PyBench  
-  
+
+![image](https://github.com/user-attachments/assets/03dd6bd6-1ca5-4269-b867-9b95ebb75dd5)  
+
 Lab3task3.mlx  
 ![image](https://github.com/user-attachments/assets/36b9db1c-cdc1-443c-9d3e-cded4282b991)
 <img width="361" alt="Screenshot 2025-02-06 at 11 55 40" src="https://github.com/user-attachments/assets/11cf20ff-0796-499e-960c-2c7e9267847c" />  
@@ -71,6 +77,7 @@ Also peaks at 5Hz at 8dB higher gain, which correlates to (but is a little lower
 At higher frequencies / low gain values the noise adds to the signal which means it does not decrease further and it is innacurate.  
   
 Task 4 - Measure the Step Response of the Bulb Board    
+![image](https://github.com/user-attachments/assets/fe1f7006-b0a5-48e6-8de3-841519bf84c5)  
 
 Lab3Task4.mlx  
 ![image](https://github.com/user-attachments/assets/72f974b2-8899-46fb-aab5-2abd255e756e)
