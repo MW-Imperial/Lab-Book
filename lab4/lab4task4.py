@@ -31,7 +31,7 @@ oled.poweron()
 oled.init_display()
 
 # Simple Hello World message
-oled.draw_text(0, 0, 'Hello World!')  # Each character is 6x8 pixels
+oled.draw_text(30, 30, 'Hello World!')  # Each character is 6x8 pixels
 oled.display()
 
 t0 = pyb.millis()  # Store start time
@@ -39,9 +39,8 @@ t0 = pyb.millis()  # Store start time
 while True:
     b_LED.toggle()
     toc = pyb.millis() - t0  # Read elapsed time
-    oled.draw_text(0, 20, 'Delay time: {:6.3f} sec'.format((toc-t0)*0.001))
-    oled.draw_text(0, 40, 'POTSK reading: {:5d}'.format(pot.read()))
     oled.display()
     t0 = pyb.millis()  # Start time
     delay = pyb.rng() % 1000  # Generate random number between 0 and 999
+    pot = 
     pyb.delay(delay)  # Delay in milliseconds
