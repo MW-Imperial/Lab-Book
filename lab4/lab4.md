@@ -38,14 +38,18 @@ However, the gyro reading goes up linearly when there is an initial offset.
 If the first reading is not 0, this error gets added every time in the inegration.  
 
 
-Task 2  
+Task 2: 3D plot  
 When you shake the acceleration moves but not gyroscope.  
 Gyroscope drifts due to the integration producing a 'dc offset'   
 Accellerometer is moves more, but gyroscope is much more accurate  
 
-Task 3:  
+Task 3: Complementary filter  
+
 Low pass on accel to remove 'noise'  
+'noise' Acts similar to high freq sound noise  
 high pass on accel to remove 'dc offset'  
+This is a low freq because it changes slowly  
+Add them together to get the best reading for all freq.  
 ![image](https://github.com/user-attachments/assets/ea00bef7-ea73-4f46-98de-eb6e0e726c85)
 
 Task 4:  
