@@ -53,6 +53,21 @@ Add them together to get the best reading for all freq.
 ![image](https://github.com/user-attachments/assets/ea00bef7-ea73-4f46-98de-eb6e0e726c85)
 
 Task 4:  
+When all 3 pybench switches are set to 000, when the pybench turns on and runs main.py,  
+The 000 causes it to run user.py, and you can put in user.py execfile("myprog.py") to run myprog.py.
+Just need to drop it into the SD card disk.  
+It runs the program in a loop   
+????  
+mac terminal allows for control c / d interaction   
+![image](https://github.com/user-attachments/assets/e418ea10-2891-4810-ae56-425b5c69d383)  
+Second I2C on oled is used   
+i2c.scan() finds the i2c address  
+the OLED is created with 6 different pins such as reset pin  
+The device id is also added.  
+
+  
+![image](https://github.com/user-attachments/assets/65838011-ecb3-4320-bdcb-9a80d2b05a92)
+
 30, 30 spacing centres 'Hello World!'  
 
 Task 4 extra:  
