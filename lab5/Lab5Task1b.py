@@ -14,12 +14,12 @@ tim = Timer(2, freq=1000)
 motorA = tim.channel(1, Timer.PWM, pin = PWMA)
 motorB = tim.channel(2, Timer.PWM, pin = PWMB)
 
-def motorA_Forward(value)
+def motorA_Forward(value):
     A1.low()
     A2.high()
     motorA.pulse_width_percent(value)
 
-def motorB_Forward(value)
+def motorB_Forward(value):
     B1.low()
     B2.high()
     motorB.pulse_width_percent(value)
@@ -28,4 +28,4 @@ pot = pyb.ADC(Pin("X11"))
 value = pot.read()
 mapped = (value * 50 / 4096)
 
-motorB_Forward(mapped)
+motorA_Forward(mapped)

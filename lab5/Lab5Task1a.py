@@ -14,32 +14,32 @@ tim = Timer(2, freq=1000)
 motorA = tim.channel(1, Timer.PWM, pin = PWMA)
 motorB = tim.channel(2, Timer.PWM, pin = PWMB)
 
-def motorA_Forward(value)
+def motorA_Forward(value):
     A1.low()
     A2.high()
     motorA.pulse_width_percent(value)
 
-def motorB_Forward(value)
+def motorB_Forward(value):
     B1.low()
     B2.high()
     motorB.pulse_width_percent(value)
 
-def motorA_Backward(value)
+def motorA_Backward(value):
     A2.low()
     A1.high()
     motorA.pulse_width_percent(value)
 
-def motorB_Backward(value)
+def motorB_Backward(value):
     B2.low()
     B1.high()
     motorB.pulse_width_percent(value)
 
-def motorA_stop(value)
+def motorA_stop():
     A1.low()
     A2.low()
-    motorB.pulse_width_percent(value)
+    motorB.pulse_width_percent(0)
 
-def motorB_stop(value)
+def motorB_stop():
     B1.low()
     B2.low()
-    motorB.pulse_width_percent(value)
+    motorB.pulse_width_percent(0)

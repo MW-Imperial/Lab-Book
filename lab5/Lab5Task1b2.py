@@ -9,7 +9,7 @@ PWMA = Pin("X1")
 tim = Timer(2, freq=1000)
 motorA = tim.channel (1, Timer.PWM, pin = PWMA)
 
-def A_Forward(value)
+def A_Forward(value):
     A1.low()
     A2.high()
     motorA.pulse_width_percent(value)
