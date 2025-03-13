@@ -134,7 +134,7 @@ while True:
 
         A_speed = A_count 
         B_speed = B_count  
-        B_count = 0
+        A_count = 0
         B_count = 0
         tic2 = pyb.millis()
 
@@ -159,8 +159,8 @@ while True:
         B_back(abs(mapped_pitch))
         
     oled.clear() 
-    oled.draw_text(60, 20, '{:5.2f} rps'.format(A_speed / 39))  
-    oled.draw_text(10, 20, '{:5.2f} rps'.format(B_speed / 39)) 
+    oled.draw_text(60, 20, '{:5.2f} rps'.format(A_speed / 19))  
+    oled.draw_text(10, 20, '{:5.2f} rps'.format(B_speed / 19)) 
     oled.display()
     tic = pyb.millis()
  
