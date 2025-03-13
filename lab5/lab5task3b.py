@@ -6,7 +6,7 @@ from pyb import ExtInt
 micropython.alloc_emergency_exception_buf(100)
 
 # Create peripheral objects
-b_LED = LED(4)        # Blue LED
+pyb.LED = LED(4)        # Blue LED
 pot = ADC(Pin('X11')) # 5k ohm potentiometer to ADC input on pin X11
 
 # I2C connected to Y9 (SDA), Y10 (SCL) pins and Y11 is reset (low active)
@@ -19,6 +19,8 @@ oled = OLED_938(
     i2c_devid=i2c.scan()[0]
 )
 
+
+
 oled.poweron()
 oled.init_display()
 
@@ -30,6 +32,11 @@ B2 = Pin("X7", Pin.OUT_PP)
 
 PWMA = Pin("X1")
 PWMB = Pin("X2")
+
+
+tim = Timer(2, freq = 1000)
+motorA = tim.channel (1, Timer.PWM, pin = PWMA)
+motorB = tim.channel (2, Timer.PWM, pin = PWMB)  
 
 A_sense = Pin("Y6", Pin.PULL_NONE)
 B_sense = Pin("Y4", Pin.PULL_NONE)
@@ -71,6 +78,7 @@ B_count = 0
 def isrA_motor(dummy):
     global A_count
     A_count += 1
+    print(A_count)
 
 def isrB_motor(dummy):
     global B_count
@@ -85,19 +93,17 @@ def isr_speed_timer(dummy):
     B_speed = B_count
     A_count = 0
     B_count = 0
+    print(A_speed)
 
 motorA_int = ExtInt ('Y6', ExtInt.IRQ_RISING, Pin.PULL_NONE, isrA_motor)
 motorB_int = ExtInt ('Y4', ExtInt.IRQ_RISING, Pin.PULL_NONE, isrB_motor)
 
-speed_timer = pyb.Timer(2, freq=10)
+speed_timer =  pyb.Timer(4, freq=50)
 speed_timer.callback(isr_speed_timer)
-
-motorA = speed_timer.channel (1, Timer.PWM, pin = PWMA)
-motorB = speed_timer.channel (2, Timer.PWM, pin = PWMB)
 
 
 while True:
-    value = pot.read()  
+    value = pot.read()
     mapped = ((value-2048)*200/4096)
     if (mapped > 0):
         A_forward(mapped)  
@@ -105,10 +111,10 @@ while True:
     else:
         A_back(abs(mapped))
         B_back(abs(mapped))
-
+        
     oled.clear() 
     oled.draw_text(60, 20, '{:5.2f} rps'.format(A_speed / 39))  
     potangle = (value * 180) / 4095 - 90  
     oled.line(96, 26, potangle, 24, 1)
-    oled.display()  
+    oled.display()
     pyb.delay(100)  
