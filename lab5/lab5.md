@@ -17,5 +17,15 @@ we count number of rising edge transitions, there is a hardware polling rate tha
 We check every 100ms to see how many counts, and display this speed as an rpm (divide by 39)  
 Also added a line that rotates to show a spedometer
 ![image](https://github.com/user-attachments/assets/03ee6543-e0fb-45be-833d-0a0e9e777858)
+The original code updated the display every loop, which added such a delay that it missed many of the counts, and gave a very low rpm  
+Adding a delay causes the polling to miss many counts.    
 
-Task 3: 
+Task 3: Interrupt 
+![image](https://github.com/user-attachments/assets/7d96b160-b045-4124-9a8d-17082bec8193)
+every time isr_motorA is called, it adds one to the count  
+every time isr_speedtimer is called it updates the speed based on the count number, then resets the count number  
+extint allows us to create our own interrupt  
+motorA_int uses Y4 (hall effect) as an input, and checks it for rising edges, then runs isr_motorA  
+
+every time speed time calls back, (every 100msec) it triggers isr_speedtimer  
+![image](https://github.com/user-attachments/assets/372e826b-9316-4d4e-bd28-4a77c58d1b23)
