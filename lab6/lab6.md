@@ -18,7 +18,7 @@ Then it is divided by number of taps to find the average
 ![image](https://github.com/user-attachments/assets/5707ff88-8bdb-421a-952c-445e340da4f2)  
 
 Task 2: Microphone class  
-![image](https://github.com/user-attachments/assets/6fa0f9b6-a4e4-4b11-a729-6acb071b536f)
+![image](https://github.com/user-attachments/assets/6fa0f9b6-a4e4-4b11-a729-6acb071b536f)  
 mic class creates a buffer array that starts at 0
 It also sets up an interrupt timer based on input timer.  
 
@@ -26,4 +26,6 @@ DC offsett is around 1523 - subtracted from signal to correct it.
 uses a pointer with wrap around to work out where it is in the buffer array and finish the interrupt if the buffer is full.   
 it also works out sum of squares to find energy. 
 
-![image](https://github.com/user-attachments/assets/b9c1c0bd-4f18-4dca-b74b-eb353b03c60f)
+![image](https://github.com/user-attachments/assets/b9c1c0bd-4f18-4dca-b74b-eb353b03c60f)  
+
+Task 3: 
