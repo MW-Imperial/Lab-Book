@@ -3,6 +3,7 @@ Each motor requires 2 directional pins and a PWM pin.
 We set up a timer to create a pwm, with a given frequency  
 ![image](https://github.com/user-attachments/assets/13da9633-284a-4ac8-8619-ba7edf302ae7)    
 ![image](https://github.com/user-attachments/assets/2bea24b9-dbdd-40a2-ad83-824ad12a705f)  
+each motor can be controlled by choosing a direction and giving it a PWM (speed): 
 ![image](https://github.com/user-attachments/assets/1462aab7-2c77-4642-80b0-392b37f77ba2)
 
 1b: potentiometer control:    
