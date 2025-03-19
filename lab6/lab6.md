@@ -29,3 +29,19 @@ it also works out sum of squares to find energy.
 ![image](https://github.com/user-attachments/assets/b9c1c0bd-4f18-4dca-b74b-eb353b03c60f)  
 
 Task 3: 
+![image](https://github.com/user-attachments/assets/c002ac6d-7394-465a-9edd-aeaeafc5eca1)  
+
+![image](https://github.com/user-attachments/assets/c802d967-b9e5-41ca-953c-72e8b66eb49f)  
+
+disable irq pauses interrups whilst defining a different interrupt. It is reenabled for the main function.  
+Sees if the audio buffer is full, gets the instantaneous energy and compares it to the moving average of the last 50 samples. 
+Uses modulus to wraparound pointer as it gives the remainder when divided by the length of the array  
+can tune beat period and cutoff value  
+
+
+Task 4:   
+added the neopixel to flash function so that whenever a beat is detected it lights up.
+Cycles through different colours for every light every time the function is called, then switches back on, giving a pulse effect  
+height reached is mapped by the strength of c value.  
+![image](https://github.com/user-attachments/assets/c970fe71-b8e4-4bbe-9277-7db934d8f0b8)
+
