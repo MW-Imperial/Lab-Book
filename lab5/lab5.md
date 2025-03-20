@@ -19,9 +19,10 @@ Also added a line that rotates to show a spedometer
 ![image](https://github.com/user-attachments/assets/03ee6543-e0fb-45be-833d-0a0e9e777858)
 The original code updated the display every loop, which added such a delay that it missed many of the counts, and gave a very low rpm  
 Adding a delay causes the polling to miss many counts.    
-![IMG_9959](https://github.com/user-attachments/assets/cd78bbb3-b9cd-4d44-a559-dc9ac87d0978)
-![IMG_9961](https://github.com/user-attachments/assets/5eb4c132-4258-4934-a18a-f38c7e5a1d09)
-![IMG_9960](https://github.com/user-attachments/assets/b57f137a-4135-4a3a-a5a5-05ca35b9f096)
+![IMG_9959](https://github.com/user-attachments/assets/cd78bbb3-b9cd-4d44-a559-dc9ac87d0978)  
+![IMG_9960](https://github.com/user-attachments/assets/b57f137a-4135-4a3a-a5a5-05ca35b9f096)  
+![IMG_9961](https://github.com/user-attachments/assets/5eb4c132-4258-4934-a18a-f38c7e5a1d09)  
+
 
 
 Task 3: Interrupt 
