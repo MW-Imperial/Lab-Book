@@ -15,11 +15,15 @@ Outputs angle as a radian
 Red is roll (left and right)  
 tilting Left makes red go up, right makes red go down   
 This is due to it measuring the effect of gravity on the displacement of the weight / springs near to the 2 capacitor plates  
+![WhatsApp Image 2025-03-20 at 10 25 25_5c500f64](https://github.com/user-attachments/assets/28e69c06-0b6e-4da3-b209-e5df6ef48704)
+![WhatsApp Image 2025-03-20 at 10 25 24_2b3043c7](https://github.com/user-attachments/assets/6e1b9af3-5e19-49e2-bfbe-648764cc544c)
 
   
 Shaking it gives the same effect as tilting because the it responds to any acceleration  
 Also Slight motion of the accelerometer adds 'noise' to the reading  
 ![image](https://github.com/user-attachments/assets/bc25fc3b-5d82-4d63-98fe-e421fc575e7b)
+![WhatsApp Image 2025-03-20 at 10 25 22_e67d554c](https://github.com/user-attachments/assets/d5071a75-29dd-4446-a5cc-13a46583d6dd)
+![WhatsApp Image 2025-03-20 at 10 25 22_a999ba9e](https://github.com/user-attachments/assets/05e8b1e9-77c8-4238-a19d-673fc46f420c)
 
 Gyroscope:  
 We use it to read angular velocity
@@ -41,6 +45,9 @@ Task 2: 3D plot
 When you shake the acceleration moves but not gyroscope.  
 Gyroscope drifts due to the integration producing a 'dc offset'   
 Accellerometer is moves more, but gyroscope is much more accurate  
+![WhatsApp Image 2025-03-20 at 10 25 29_46e333b8](https://github.com/user-attachments/assets/9c9a2c12-6044-4049-8c08-48e92856dfdd)
+![WhatsApp Image 2025-03-20 at 10 25 28_58b8c601](https://github.com/user-attachments/assets/9ddab7a6-adbd-4e68-993f-1fcae7fcb241)
+![WhatsApp Image 2025-03-20 at 10 25 28_9f5d128c](https://github.com/user-attachments/assets/70202529-d3dc-4dfe-9f39-631a55f7ae2c)
 
 Task 3: Complementary filter  
 
