@@ -21,6 +21,8 @@ Task 2: Microphone class
 ![image](https://github.com/user-attachments/assets/6fa0f9b6-a4e4-4b11-a729-6acb071b536f)  
 mic class creates a buffer array that starts at 0
 It also sets up an interrupt timer based on input timer.  
+![WhatsApp Image 2025-03-20 at 11 30 44_879b68ae](https://github.com/user-attachments/assets/b39487b2-023b-4410-9c7f-b3e428165835)
+![WhatsApp Image 2025-03-20 at 11 30 44_e9912af8](https://github.com/user-attachments/assets/fa1ba3f5-1b2a-44cb-b6e9-c1cc4f45a745)
 
 DC offsett is around 1523 - subtracted from signal to correct it.  
 uses a pointer with wrap around to work out where it is in the buffer array and finish the interrupt if the buffer is full.   
@@ -29,9 +31,7 @@ it also works out sum of squares to find energy.
 ![image](https://github.com/user-attachments/assets/b9c1c0bd-4f18-4dca-b74b-eb353b03c60f)  
 
 Task 3: 
-![image](https://github.com/user-attachments/assets/c002ac6d-7394-465a-9edd-aeaeafc5eca1)  
-
-![image](https://github.com/user-attachments/assets/c802d967-b9e5-41ca-953c-72e8b66eb49f)  
+![image](https://github.com/user-attachments/assets/9430c16b-4936-409f-8438-cb2da14e2602)
 
 disable irq pauses interrups whilst defining a different interrupt. It is reenabled for the main function.  
 Sees if the audio buffer is full, gets the instantaneous energy and compares it to the moving average of the last 50 samples. 
@@ -44,4 +44,7 @@ added the neopixel to flash function so that whenever a beat is detected it ligh
 Cycles through different colours for every light every time the function is called, then switches back on, giving a pulse effect  
 height reached is mapped by the strength of c value.  
 ![image](https://github.com/user-attachments/assets/c970fe71-b8e4-4bbe-9277-7db934d8f0b8)
+![image](https://github.com/user-attachments/assets/c002ac6d-7394-465a-9edd-aeaeafc5eca1)  
+
+![image](https://github.com/user-attachments/assets/c802d967-b9e5-41ca-953c-72e8b66eb49f)  
 
