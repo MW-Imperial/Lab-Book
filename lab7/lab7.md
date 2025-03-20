@@ -40,10 +40,12 @@ the decay means that newer values are prioritised
 Tuning:
 our kp was much more powerful than expected, so we ended up in a range of 1-2.5 and settled on 2.2
 Then tuned kd to reduce the period of oscillations, but too high and it vibrated really fast whilst balancing, so 0.7 was chosen.
-Ki was set as high as possible as the error sum was not strong enough, so 150 was chosen.
+Ki was set as high as possible as the error sum was not strong enough, so 150 was chosen.  
 
 Results:  
 Kp 2.2  
 Ki 150  
 Kd 0.7  
 
+
+![IMG_9958](https://github.com/user-attachments/assets/5c5ccf51-440c-4ad7-a03f-4e4e3389cb14)
