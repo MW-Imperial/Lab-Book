@@ -26,11 +26,21 @@ Adding a delay causes the polling to miss many counts.
 
 
 Task 3: Interrupt 
-![image](https://github.com/user-attachments/assets/7d96b160-b045-4124-9a8d-17082bec8193)
-every time isr_motorA is called, it adds one to the count  
+![image](https://github.com/user-attachments/assets/7d96b160-b045-4124-9a8d-17082bec8193)  
+every time isr_motorA is called, it adds one to the count   
 every time isr_speedtimer is called it updates the speed based on the count number, then resets the count number  
 extint allows us to create our own interrupt  
 motorA_int uses Y4 (hall effect) as an input, and checks it for rising edges, then runs isr_motorA  
 
 every time speed time calls back, (every 100msec) it triggers isr_speedtimer  
 ![image](https://github.com/user-attachments/assets/372e826b-9316-4d4e-bd28-4a77c58d1b23)
+
+3b:  
+![IMG_9966](https://github.com/user-attachments/assets/69b69605-b52c-4d7f-962e-ed64ffee3464)
+
+![image](https://github.com/user-attachments/assets/261c986a-e333-45d1-89fb-34186c4f7a99)  
+low rps seems to be that hard polling for the rising edges of hall effects is too slow to count all.  
+characteristic is correct shape, motors will not start above a set pwm and motor b is slightly slower.  
+
+
+
