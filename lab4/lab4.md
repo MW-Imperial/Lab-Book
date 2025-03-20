@@ -24,8 +24,7 @@ Also Slight motion of the accelerometer adds 'noise' to the reading
 Gyroscope:  
 We use it to read angular velocity
 Gives an estimate of the angle split into pitch and roll:
-![image](https://github.com/user-attachments/assets/83df9bf0-363d-40d0-a4c0-776962b28962)
-
+![image](https://github.com/user-attachments/assets/83df9bf0-363d-40d0-a4c0-776962b28962)  
 take pdot (ang velocity) and multiply it by delta t (time change) and add that to the previous angle's reading :
 ![image](https://github.com/user-attachments/assets/bde77411-edda-4d88-be4d-7cfaed6bd7df)
 Measuring velocity instead of accelleration removes the noise due to force.   
@@ -57,7 +56,6 @@ When all 3 pybench switches are set to 000, when the pybench turns on and runs m
 The 000 causes it to run user.py, and you can put in user.py execfile("myprog.py") to run myprog.py.
 Just need to drop it into the SD card disk.  
 It runs the program in a loop   
-????  
 mac terminal allows for control c / d interaction   
 ![image](https://github.com/user-attachments/assets/e418ea10-2891-4810-ae56-425b5c69d383)  
 Second I2C on oled is used   
@@ -69,11 +67,14 @@ The device id is also added.
 ![image](https://github.com/user-attachments/assets/65838011-ecb3-4320-bdcb-9a80d2b05a92)
 
 30, 30 spacing centres 'Hello World!'  
+![IMG_9962](https://github.com/user-attachments/assets/7b0fdf14-9fee-45d7-9b9d-c61f059bf5f5)
 
 Task 4 extra:  
 Using Oled.Line instead as angle changes work better
 Had to find pot.read() in python test code.  
 
-Task 5:
+Task 5:  
+![image](https://github.com/user-attachments/assets/7ca85f49-30f0-47b7-994a-ba18fa46dffa)
 
-Correctly Shifts when tilted
+Correctly Shifts when tilted  
+![IMG_9411](https://github.com/user-attachments/assets/ef2a0f58-d3b6-4e72-a36d-59baad7df31f)
