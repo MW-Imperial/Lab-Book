@@ -37,6 +37,7 @@ every time speed time calls back, (every 100msec) it triggers isr_speedtimer
 
 3b:  
 ![IMG_9966](https://github.com/user-attachments/assets/69b69605-b52c-4d7f-962e-ed64ffee3464)
+![image](https://github.com/user-attachments/assets/a63aa55f-40ec-499b-bb56-1eb1fffe9972)
 
 ![image](https://github.com/user-attachments/assets/261c986a-e333-45d1-89fb-34186c4f7a99)  
 low rps seems to be that hard polling for the rising edges of hall effects is too slow to count all.  
